@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import photoperfil from "../../../../public/img/photo-perfil.webp";
+import photoperfil from "../../../../public/img/perfil.jpg";
 ---
 
 <div class="content-presentation">
@@ -8,9 +8,35 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   <div class="linear-gradient-1"></div>
   <dir class="container-persentation">
     <div class="container-text">
-      <!-- <h2 class="text-hello">Hola <strong>soy</strong></h2> -->
-      <h2 class="text-name">Osnaider Martinez</h2>
+      <h2 class="text-name">Ing. Paul Pasaca</h2>
       <div class="container-profession">
+
+        <div>
+          <span class="p-profession">A</span>
+          <span class="p-profession">n</span>
+          <span class="p-profession">a</span>
+          <span class="p-profession">l</span>
+          <span class="p-profession">i</span>
+          <span class="p-profession">s</span>
+          <span class="p-profession">t</span>
+          <span class="p-profession">a</span>
+          <span class="">&nbsp;</span>
+
+          <span class="p-profession">d</span>
+          <span class="p-profession">e</span>
+          <span class="">&nbsp;</span>
+
+          <span class="p-profession">D</span>
+          <span class="p-profession">a</span>
+          <span class="p-profession">t</span>
+          <span class="p-profession">o</span>
+          <span class="p-profession">s</span>
+          <span class="">&nbsp;</span>
+
+          <span class="p-profession">Y</span>
+          <span class="">&nbsp;</span>
+
+        </div>
         <div>
           <span class="p-profession">D</span>
           <span class="p-profession">e</span>
@@ -26,8 +52,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
           <span class="p-profession">o</span>
           <span class="p-profession">r</span>
           <span class="">&nbsp;</span>
-        </div>
-        <div class="">
+
           <span class="p-profession">F</span>
           <span class="p-profession">r</span>
           <span class="p-profession">o</span>
@@ -38,8 +63,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
           <span class="p-profession">n</span>
           <span class="p-profession">d</span>
           <span class="">&nbsp;</span>
-          <span class="p-profession">J</span>
-          <span class="p-profession">r</span>
+
         </div>
       </div>
       <p class="p-presentation">
@@ -50,7 +74,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
         velocidad y el rendimiento del sitio web.
       </p>
       <div class="container-curriculum">
-        <a href="https://wa.me/+573166026155" target="_blank" class="a-action"
+        <a href="https://wa.me/+593997120730" target="_blank" class="a-action"
           >Hablemos</a
         >
         <a
@@ -61,13 +85,13 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
       </div>
       <div class="container-social">
         <p class="">Echa un vistaso a mi</p>
-        <a href="https://github.com/Osnaider19" target="_blank">
+        <a href="https://github.com/Cricket-Engineer" target="_blank">
           <li class="li-social">
             <i class="fa-brands fa-github"></i>
           </li>
         </a>
         <a
-          href="https://www.linkedin.com/in/osnaider-mart%C3%ADnez-154b67256/"
+          href="https://www.linkedin.com/in/paul-alexander-pasaca-1a3b2b297/"
           target="_blank"
         >
           <li class="li-social">
@@ -108,6 +132,8 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     position: relative;
     width: 100%;
     height: 100%;
+      background-color: #F6F6F9; /* Gris claro de fondo */
+
   }
   .linear-gradient-1 {
     position: absolute;
@@ -117,7 +143,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     height: 520px;
     background: radial-gradient(
       at left center,
-      rgba(1, 190, 150, 0.5),
+      rgba(1, 190, 150, 0.3),
       transparent,
       transparent
     );
@@ -131,9 +157,9 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     height: 100%;
     background: radial-gradient(
       at right center,
-      rgba(1, 190, 150, 0.6),
-      rgb(0, 0, 0),
-      rgb(0, 0, 0)
+      rgba(31, 58, 147, 0.3),
+    transparent,
+    transparent
     );
     z-index: 0;
   }
@@ -150,17 +176,13 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   .container-text {
     position: relative;
     width: 50%;
-    color: #f6f6f9;
-  }
-  .text-hello {
-    padding: 10px 0;
-    font-size: 20px;
+    color: #1F3A93; /* Gris medio */
   }
 
   .text-name {
     padding: 5px 0;
     font-size: 30px;
-    color: #01be96;
+    color: #01BE96;
     font-weight: 800;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -170,8 +192,9 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     padding: 5px 0;
   }
   .p-profession {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1F3A93;
     cursor: pointer;
     display: inline-block;
     text-transform: capitalize;
@@ -180,7 +203,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
 
   .bouncing {
     transition: 0.8s all;
-    color: #01be96;
+    color: #01BE96;
     animation: rubberband 400ms alternate ease-out;
   }
 
@@ -210,6 +233,8 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     font-size: 19px;
     width: 90%;
     text-align: left;
+    color: #6E7A8A;
+
   }
 
   .container-curriculum {
@@ -224,14 +249,15 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
-    border: 1px solid #01be96;
+    border: 1px solid #01BE96;
     font-size: 18px;
-    background-color: #01be96;
+    background-color: #01BE96;
     text-decoration: none;
-    color: #f6f6f9;
+    color: #FFFFFF;
     transition: 0.3s;
   }
   .a-action:hover {
+    background-color: #0F5D45; /* Verde oscuro */
     transform: translateX(4px);
   }
 
@@ -241,15 +267,15 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
-    color: #f6f6f9;
-    border: 1px solid #01be96;
+    color: #1F3A93;
+    border: 1px solid #01BE96;
     font-size: 18px;
     text-decoration: none;
     transition: 0.3s;
   }
 
   .a-curriculum:hover {
-    background-color: rgba(1, 190, 150, 0.3);
+    background-color: rgba(1, 190, 150, 0.2);
     transform: translateX(4px);
   }
 
@@ -269,7 +295,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   .li-social {
     position: relative;
     list-style: none;
-    background-color: #01be96;
+    background-color: #01BE96;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     display: flex;
     justify-content: center;
@@ -280,7 +306,7 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
 
   .li-social i {
     font-size: 25px;
-    color: #f6f6f9;
+    color: #FFFFFF;
   }
 
   .li-social:hover {
@@ -295,26 +321,21 @@ import photoperfil from "../../../../public/img/photo-perfil.webp";
   }
 
   .photo-perfil {
-    position: relative;
-    display: flex;
-    justify-content: center;
+    
     overflow: hidden;
-    height: 300px;
-    width: 300px;
+    height: 380px;
+    width: 380px;
     margin-top: 30px;
     margin-left: 110px;
     border-radius: 50%;
-    z-index: 10;
     background: rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     /* border-radius: 64% 36% 29% 71% / 59% 79% 21% 41%; */
   }
 
   .photo-perfil img {
-    position: relative;
-    display: block;
+    
     object-fit: cover;
     height: 100%;
     width: 100%;

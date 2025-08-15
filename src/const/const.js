@@ -1,13 +1,13 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Ingeniero en Sistemas",
+    corporation: "Universidad Nacional de Loja - Loja ( Ecuador ) ",
+    date: "09/2016 – 09/2022",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Bachiller: Industriales Mecanizado y Construcciones Metálicas",
+    corporation: "Unidad Educativa Fiscomisional Daniel Álvarez Burneo",
+    date: "06/2015",
   },
   {
     title: "Curso profesional de React Js",
@@ -126,6 +126,7 @@ export const skills = [
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+   
 ];
 
 export const projects = [

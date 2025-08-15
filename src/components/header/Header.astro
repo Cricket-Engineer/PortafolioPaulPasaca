@@ -64,10 +64,10 @@
   .header {
     position: relative;
     height: 80px;
-    background-color: #000;
+    background-color: #1F3A93;
     width: 100%;
     padding: 20px 20px;
-    color: #f6f6f9;
+    color: #F6F6F9;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -78,13 +78,15 @@
     display: inline-block;
     position: relative;
     z-index: 20;
+    color: #F6F6F9; 
+
   }
   .nav {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #f6f6f9;
+    color: #F6F6F9;
   }
   .ul-nav {
     position: relative;
@@ -93,12 +95,12 @@
 
   .ul-nav a {
     text-decoration: none;
-    color: #f6f6f9;
+    color: #F6F6F9;
   }
   .li-nav {
     position: relative;
     list-style: none;
-    color: #f6f6f9;
+    color: #F6F6F9;
     transition: 0.3s;
     margin: 0 10px;
     padding: 4px 2px;
@@ -109,15 +111,16 @@
     position: absolute;
     height: 2px;
     width: 0%;
-    background-color: #01be96;
+    background-color: #01BE96;
     bottom: -3px;
+    transition: width 0.4s;
+
   }
   .li-nav:hover::before {
     width: 100%;
-    transition: 0.4s;
   }
   .li-nav:hover {
-    color: #01be96;
+    color: #01BE96;
   }
 
   .container-bnt-menu {
@@ -145,9 +148,8 @@
       top: 0;
       left: 0;
       z-index: 100;
-      /* background: rgba(255,255,255,0.1);
-        -webkit-backdrop-filter: blur(3px);
-        backdrop-filter: blur(3px); */
+      background-color: #1F3A93; /* Consistencia */
+
     }
     h1 {
       display: inline-block;
@@ -162,7 +164,7 @@
       position: relative;
       height: 2px;
       width: 40px;
-      background-color: #f6f6f9;
+      background-color: #F6F6F9;
       top: -5px;
       margin-top: 10px;
       cursor: pointer;
@@ -182,7 +184,7 @@
     .nav {
       position: fixed;
       flex-direction: column;
-      background: #111111;
+      background: #0F5D45;
       width: auto;
       height: 100vh;
       right: -300px;
@@ -199,11 +201,11 @@
       
     }
     .li-nav:hover {
-      background-color: #01be96;
-      color : #000
+      background-color: #01BE96;
+      color : #1F3A93
     }
     .li-nav:hover::before {
-      content: "";
+      
       width: 0;
       height: 0;
     }
