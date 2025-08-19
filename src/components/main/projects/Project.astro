@@ -40,7 +40,7 @@ const { technologies, title, img, description, link } = Astro.props;
   .li-project {
     position: relative;
     list-style: none;
-    border: 1px solid #3d3e4f;
+    border: 1px solid #6E7A8A;
     overflow: hidden;
     max-width: 380px;
     min-width: 300px;
@@ -48,7 +48,7 @@ const { technologies, title, img, description, link } = Astro.props;
     border-radius: 2px;
     transition: transform, box-shadow, 0.3s;
     border-radius: 7px;
-    background-color: #25242d;
+    background-color: #1F3A93;
     z-index: 1;
     min-height: 100%;
     display: flex;
@@ -65,7 +65,7 @@ const { technologies, title, img, description, link } = Astro.props;
     position: absolute;
     width: 100%;
     height: 5px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:#01BE96;
     z-index: -1;
     bottom: 0;
     transition: 0.3s ease-in-out;
@@ -76,7 +76,7 @@ const { technologies, title, img, description, link } = Astro.props;
     content: "";
     position: absolute;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(1, 190, 150, 0.15);
     z-index: -1;
     bottom: 0;
     transition: 0.3s ease-in-out;
@@ -84,6 +84,7 @@ const { technologies, title, img, description, link } = Astro.props;
   }
   .li-project:hover {
     transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(138, 136, 110, 0.3);
   }
   .li-project img {
     position: relative;
@@ -91,12 +92,12 @@ const { technologies, title, img, description, link } = Astro.props;
     height: 200px;
     width: 100%;
     object-fit: cover;
-    object-position: left top;
+    object-position: center;
     user-select: none;
     pointer-events: none;
   }
   .title-project {
-    color: #f6f6f9;
+    color: #F6F6F9;
     padding: 10px 10px;
     font-size: 25px;
     font-weight: 700;
@@ -106,13 +107,14 @@ const { technologies, title, img, description, link } = Astro.props;
   }
 
   .title-technologies {
-    color: #f6f6f9;
+    color: #01BE96;
     font-size: 20px;
+    margin-top: 15px;
     padding: 5px 10px;
   }
   .description-project {
     padding: 0 10px;
-    color: #f6f6f990;
+    color: #f6f6f9ee;
     font-size: 17px;
     font-weight: 400;
     display: -webkit-box;
@@ -135,7 +137,7 @@ const { technologies, title, img, description, link } = Astro.props;
     padding: 10px 10px;
     column-gap: 20px;
     flex-wrap: wrap;
-    color: white;
+    color: #F6F6F9;
   }
   .container-link-project {
     position: relative;
@@ -149,7 +151,10 @@ const { technologies, title, img, description, link } = Astro.props;
     padding: 10px 10px;
     background-color: #01be96;
     border-radius: 5px;
-    color: #f6f6f9;
+    color: #F6F6F9;
     justify-content: space-between;
+  }
+   .container-link-project a:hover {
+    background-color: #6E7A8A; /* gris azulado en hover */
   }
 </style>

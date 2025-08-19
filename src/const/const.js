@@ -131,7 +131,7 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
+    img: "/PortafolioPaulPasaca/img/ecommerce-stripe-2.webp",
     title: "Ecommerce Stripe",
     link: "https://ecommerce-stripe-763m.vercel.app/",
     description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
@@ -154,7 +154,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
+    img: "/PortafolioPaulPasaca/img/nexanime.webp",
     title: "NexAnime",
     link: "https://nexanime.vercel.app",
     description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
@@ -171,7 +171,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/cyberpunk.webp",
+    img: "/PortafolioPaulPasaca/img/cyberpunk.webp",
     title: "cyberpunk",
     link: "https://preeminent-liger-266356.netlify.app/",
     description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
@@ -190,7 +190,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/store-games.webp",
+    img: "/PortafolioPaulPasaca/img/store-games.webp",
     title: "Store games",
     link: "https://store-games-site.netlify.app/",
     description: `Simulando una página de juegos , consumiendo la API de rawg api
@@ -215,7 +215,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/movie.webp",
+    img: "/PortafolioPaulPasaca/img/movie.webp",
     title: "Movie Tv",
     link: "https://movietvsite.netlify.app/",
     description: `simulando una página de películas , consumiendo la API de themovietv
@@ -237,7 +237,7 @@ export const projects = [
   },
 
   {
-    img: "../../../img/fit-nation.webp",
+    img: "/PortafolioPaulPasaca/img/fit-nation.webp",
     title: "gym",
     link: "https://fitnation.netlify.app/",
     description: `landing page de una gym por ahora es una landing todavia está en
@@ -259,7 +259,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/spotify.webp",
+    img: "/PortafolioPaulPasaca/img/spotify.webp",
     title: "Spotify-Clone",
     link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
     description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
@@ -283,7 +283,7 @@ export const projects = [
   },
 
   {
-    img: "../../../img/landing.webp",
+    img: "/PortafolioPaulPasaca/img/landing.webp",
     title: "Landing Realidad Virtual",
     link: "https://realityvirtual.netlify.app/",
     description: `landing page de gafas de realidad virtual donde se muestra el
@@ -304,7 +304,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/tasks-manager.webp",
+    img: "/PortafolioPaulPasaca/img/tasks-manager.webp",
     title: "Tasks Manager",
     link: "https://task-manager-ecru-chi.vercel.app/dashboard",
     description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
