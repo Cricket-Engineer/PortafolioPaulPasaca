@@ -38,13 +38,40 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  python: "python",
+  matplotlib: "matplotlib",
+  pandas: "pandas",
+  numpy: "numpy",
+  sql: "sql",
+  powerbi: "powerbi",
   // here add more icon keys
 };
 
 export const skills = [
+  
+   {
+    title: "Sql",
+    icon: IconKeys.sql,
+  },
   {
-    title: "Html",
-    icon: IconKeys.html,
+    title: "Python",
+    icon: IconKeys.python,
+  },
+   {
+    title: "Numpy",
+    icon: IconKeys.numpy,
+  },
+   {
+    title: "Matplotlib",
+    icon: IconKeys.matplotlib,
+  },
+   {
+    title: "Pandas",
+    icon: IconKeys.pandas,
+  },
+   {
+    title: "Power Bi",
+    icon: IconKeys.powerbi,
   },
   {
     title: "Css",
@@ -55,9 +82,14 @@ export const skills = [
     icon: IconKeys.javaScript,
   },
   {
+    title: "Html",
+    icon: IconKeys.html,
+  },
+  {
     title: "Astro",
     icon: IconKeys.astro,
   },
+  
   {
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
@@ -66,10 +98,7 @@ export const skills = [
     title: "React Js",
     icon: IconKeys.react,
   },
-  {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
-  },
+ 
   {
     title: "Git",
     icon: IconKeys.git,
@@ -79,19 +108,7 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
+  
   {
     title: "Node Js",
     icon: IconKeys.nodejs,
@@ -100,10 +117,7 @@ export const skills = [
     title: "TypeScript",
     icon: IconKeys.typeScript,
   },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
+  
 
   {
     title: "React Query",
@@ -118,39 +132,62 @@ export const skills = [
     icon: IconKeys.zustand,
   },
 
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
+  
   {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+  /** 
+   {
+    title: "Shadcn UI",
+    icon: IconKeys.shadcn,
+  },
+  {
+      title: "Radix UI",
+      icon: IconKeys.radix,
+    },
+{
+    title: "Material UI",
+    icon: IconKeys.materialUi,
+  },
+
+  {
+    title: "Redux Js",
+    icon: IconKeys.redux,
+  },
+  {
+    title: "Styled Components",
+    icon: IconKeys.styled,
+  },
+ {
+    title: "Next Js",
+    icon: IconKeys.nextjs,
+  },
+    
+   * * */
    
 ];
 
 export const projects = [
   {
-    img: "/PortafolioPaulPasaca/img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "/PortafolioPaulPasaca/img/superstores.jpg",
+    title: "Análisis de Ventas de Hipermercado",
+    link: "https://github.com/Cricket-Engineer/Analisis-de-Ventas-de-Hipermercado/blob/main/An%C3%A1lisis_de_ventas_de_hipermercado.ipynb",
+    description: `Proyecto de análisis exploratorio de datos sobre ventas en un hipermercado, utilizando Python y bibliotecas como Pandas, NumPy y Matplotlib.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.python,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.pandas,
       },
       {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.numpy,
       },
       {
-        icon: IconKeys.mongodb,
+        icon: IconKeys.matplotlib,
       },
-      {
-        icon: IconKeys.stripe,
-      },
+      
     ],
   },
   {
