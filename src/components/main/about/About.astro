@@ -1,56 +1,70 @@
 <section class="section-about">
-  <div class="linear-grandient-1"></div>
+  <div class="linear-gradient-2"></div>
+  <div class="linear-gradient-1"></div>
   <div class="container-about">
     <div class="container-text-about">
-      <h2 class="title-about" id="sobremi">Sobre mi</h2>
+      <h2 class="title-about" id="sobremi">SOBRE MI</h2>
       <p>
-        Soy un profesional del desarrollo de software, especializado en el
-        desarrollo web front-end. Desde que comencé mis estudios en
-        programación, descubrí mi interés por crear interfaces web intuitivas y
-        atractivas. Cada día me dedico a aprender y practicar nuevas tecnologías
-        para seguir mejorando mis habilidades. Me considero una persona
-        responsable, dinámica y creativa, con una gran capacidad de adaptación y
-        un constante deseo de trabajar y aprender. Tengo iniciativa para
-        resolver problemas y disfruto enfrentando nuevos desafíos en el campo de
-        la tecnología. En el futuro, planeo expandir mis conocimientos y dominar
-        una variedad aún mayor de herramientas y técnicas en el desarrollo web.
+        Soy un profesional en análisis de datos y desarrollo de software, con una sólida formación en 
+        Ingeniería en Sistemas.
+        Mi trabajo combina dos áreas que me apasionan: el análisis de datos, donde aplico herramientas 
+        como Python, SQL, Power BI y Excel para obtener información valiosa; y el desarrollo web 
+        front-end, donde diseño y construyo interfaces interactivas y optimizadas con HTML, CSS, 
+        JavaScript, React y Next.js.
+        Me considero una persona responsable, creativa y en constante aprendizaje, comprometida con la 
+        mejora continua y la búsqueda de soluciones innovadoras.
+        Mi objetivo es seguir creciendo como profesional integral en tecnología, integrando la analítica 
+        de datos con el desarrollo de aplicaciones web que generen impacto real.
       </p>
     </div>
-    <div class="container-svg-about" >
+    <div class="container-svg-about">
       <div class="container-svg">
         <lottie-player
           src="/PortafolioPaulPasaca/animations/2jP8D3Nn1t.json"
           background="transparent"
           speed="1"
-          style="width: 450px; height: 450px; position:relative;"
           loop
           autoplay></lottie-player>
       </div>
     </div>
-
   </div>
 </section>
 
-<script
-  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 <style>
-  .linear-grandient-1 {
+  .linear-gradient-1 {
     position: absolute;
     left: 0;
     top: 0;
+    width: 80%;
+    height: 80%;
+    background: radial-gradient(at left center, rgba(1, 190, 150, 0.3), transparent, transparent);
+    z-index: 0;
+  }
+  .linear-gradient-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    /* background: radial-gradient(at left center, rgba(1, 190, 150 , 0.5), transparent , transparent); */
-    background: linear-gradient(to top, #000, rgba(1, 190, 150, 0.5));
-    background:;
+    background: radial-gradient(at right center, rgba(31, 58, 147, 0.3), transparent, transparent);
     z-index: 0;
   }
 
   .section-about {
     position: relative;
-    background-color: #111111;
+    background-color: #fff;
+  }
+  .section-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, transparent, #4872ff, transparent);
+    pointer-events: none;
   }
   .container-about {
     position: relative;
@@ -58,6 +72,7 @@
     display: flex;
     margin: 0 auto;
     max-width: 1355px;
+    padding: 18px 0px;
   }
 
   .container-text-about {
@@ -70,31 +85,47 @@
   .title-about {
     position: relative;
     display: block;
-    font-size: 27px;
-    padding: 10px 0;
-    color: #f6f6f9;
+    font-size: 30px;
+    padding:25px 0;  
+    text-align: center;
+    color: #1f3a93;
     width: 100%;
     font-weight: 800;
     scroll-margin-top: 80px;
   }
   .container-text-about p {
-    font-size: 17px;
-    color: #f6f6f9;
+    font-size: 19px;
+    color: #6E7A8A;
     text-align: left;
     letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 15px;
   }
 
   .container-svg-about {
     position: relative;
     width: 50%;
+    display: flex ;
+    padding-top: 10px;  
+    justify-content: center;
+    align-items: center;
+    overflow: hidden ;
+    margin-bottom: 15px;
   }
   .container-svg {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
+    width: 100%; 
+    max-width: 100%;
+    padding-left: 0;
   }
+  .container-svg lottie-player {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* límite máximo del tamaño */
+  max-height: 100%;
+}
 
   /*  responsive  */
 

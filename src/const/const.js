@@ -128,16 +128,14 @@ export const skills = [
     icon: IconKeys.vite,
   },
   {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  
-  {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
   /** 
+   *  {
+    title: "Zustand",
+    icon: IconKeys.zustand,
+  },
    {
     title: "Shadcn UI",
     icon: IconKeys.shadcn,
