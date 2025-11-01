@@ -1,5 +1,10 @@
 <header class="header">
-  <h1 id="inicio">Portafolio</h1>
+  <div class="logo-container">
+    <a href="#inicio" class="logo-link">
+      <img src="/PortafolioPaulPasaca/img/LogoRem2.png" alt="Logo del portafolio" class="logo-img" />
+      
+    </a>
+  </div>
   <nav class="nav">
     <ul class="ul-nav">
       <a href="#inicio">
@@ -64,10 +69,10 @@
   .header {
     position: relative;
     height: 80px;
-    background-color: #1F3A93;
+    background-color: #1f3a93;
     width: 100%;
-    padding: 20px 20px;
-    color: #F6F6F9;
+    padding: 10px 35px;
+    color: #f6f6f9;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -78,15 +83,14 @@
     display: inline-block;
     position: relative;
     z-index: 20;
-    color: #F6F6F9; 
-
+    color: #f6f6f9;
   }
   .nav {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F6F6F9;
+    color: #f6f6f9;
   }
   .ul-nav {
     position: relative;
@@ -95,12 +99,12 @@
 
   .ul-nav a {
     text-decoration: none;
-    color: #F6F6F9;
+    color: #f6f6f9;
   }
   .li-nav {
     position: relative;
     list-style: none;
-    color: #F6F6F9;
+    color: #f6f6f9;
     transition: 0.3s;
     margin: 0 10px;
     padding: 4px 2px;
@@ -111,16 +115,15 @@
     position: absolute;
     height: 2px;
     width: 0%;
-    background-color: #01BE96;
+    background-color: #01be96;
     bottom: -3px;
     transition: width 0.4s;
-
   }
   .li-nav:hover::before {
     width: 100%;
   }
   .li-nav:hover {
-    color: #01BE96;
+    color: #01be96;
   }
 
   .container-bnt-menu {
@@ -130,6 +133,17 @@
   .menu-drop {
     display: none;
   }
+  .logo-container {
+    width: 110px; /* el ancho que quieres para el bloque */
+    height: 60px;
+  }
+  .logo-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* evita forma circular */
+    object-fit: contain; /* evita deformación */
+  }
+
   /* resposive */
 
   @media (max-width: 720px) {
@@ -148,8 +162,7 @@
       top: 0;
       left: 0;
       z-index: 100;
-      background-color: #1F3A93; /* Consistencia */
-
+      background-color: #1f3a93; /* Consistencia */
     }
     h1 {
       display: inline-block;
@@ -164,7 +177,7 @@
       position: relative;
       height: 2px;
       width: 40px;
-      background-color: #F6F6F9;
+      background-color: #f6f6f9;
       top: -5px;
       margin-top: 10px;
       cursor: pointer;
@@ -181,10 +194,11 @@
     .activelinea3__bars-menu {
       transform: rotate(-40deg) translate(-2px, 1px);
     }
+    /* COLORES DE NAV**/
     .nav {
       position: fixed;
       flex-direction: column;
-      background: #0F5D45;
+      background: #1f3a93;
       width: auto;
       height: 100vh;
       right: -300px;
@@ -198,14 +212,12 @@
       text-align: center;
       width: 100%;
       margin: 0;
-      
     }
     .li-nav:hover {
-      background-color: #01BE96;
-      color : #1F3A93
+      background-color: #f6f6f9;
+      color: #6E7A8A;
     }
     .li-nav:hover::before {
-      
       width: 0;
       height: 0;
     }
